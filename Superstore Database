@@ -1,0 +1,32 @@
+Query SQL
+Looking up supplies
+1
+SELECT 'Kitchen Supplies'
+2
+FROM superstore;
+3
+SELECT*
+4
+FROM superstore;
+5
+SELECT*
+6
+FROM superstore
+7
+LIMIT 5;
+8
+Looking up prices
+
+SELECT item_name,price
+9
+FROM superstore;
+10
+SELECT item_name,price
+11
+FROM superstore
+12
+ORDER BY price DESC;
+13
+ 
+14
+​
